@@ -257,7 +257,6 @@ input, input:hover, input:focus, textarea, textarea:hover, textarea:focus, selec
 }
 .kv_heading2 p{
 	display:inline-block;
-	width: 600px;
 	line-height: 23px;
 	color: #aaaaaa;
 }

@@ -1,0 +1,1507 @@
+/*---------------- Copyright (c) 2017 ----------------------------
+[Master Stylesheet]
+
+Template Name: Kanvas Responsive HTML Template
+Version: 1.0.0
+-------------------------------------------------------------------
+[Table of contents]
+
+1 - Body / body
+2- Typography css
+  2.1 - Loader Css Start / #preloader
+  2.2 - Padder Top - Bottom / .kv_toppadder10
+  2.3 - Heading Css Start / .kv_heading
+  2.4 - Button Css Start / .kv_btn
+3 - Banner & Menu Css Start / .kv_banner_wrapper
+4 - What We Do Wrapper Css Start / .kv_wedo_wrapper
+5 - Why We Best Wrapper Css Start / .kv_whywe_wrapper
+6 - About Wrapper Css Start / .kv_about_wrapper
+7 - Our Process Wrapper Css Start / .kv_ourprocess_wrapper
+8 - Recent Work Wrapper Css Start / .kv_portfolio_wrapper
+9 - Our Team Wrapper Css Start / .kv_team_wrapper
+10 - Pricing Wrapper Css Start / .kv_pricetable_wrapper
+11 - Testimonial Wrapper Css Start / .kv_testimonial_wrapper
+12 - Footer Wrapper Css Start / .kv_footer_wrapper
+*/
+
+/***********************************************************************************
+ 1 - Body Css Start
+***********************************************************************************/
+body{
+	font-size:16px;
+	font-weight:normal;
+	color:#333;
+	line-height: 1.42857143;
+	font-family: 'Lato', sans-serif;
+}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+	font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+a,a:hover, a:focus{
+	text-decoration:none;
+	outline:none;
+}
+input, input:hover, input:focus, textarea, textarea:hover, textarea:focus, select, select:hover, select:focus, button, button:hover, button:focus{
+	box-shadow:none;
+	outline:none;
+}
+/***********************************************************************************
+ 1 - Body Css End
+***********************************************************************************/
+/***********************************************************************************
+ 2 - Typography Css Start
+***********************************************************************************/
+/***********************************************************************************
+ 2.1 - Loader Css Start
+***********************************************************************************/
+#preloader {
+	background-color: #fff;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 2147483647;
+	width: 100%;
+	height: 100%;
+}
+#status {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+#status img {
+    width: 100%;
+    height: 100%;
+}
+/***********************************************************************************
+ 2.1 - Loader Css Start
+***********************************************************************************/
+/***********************************************************************************
+ 2.2 - Padder Top - Bottom Css Start
+***********************************************************************************/
+.kv_toppadder10{
+	padding-top:10px;
+}
+.kv_toppadder20{
+	padding-top:20px;
+}
+.kv_toppadder30{
+	padding-top:30px;
+}
+.kv_toppadder40{
+	padding-top:40px;
+}
+.kv_toppadder50{
+	padding-top:50px;
+}
+.kv_toppadder60{
+	padding-top:60px;
+}
+.kv_toppadder70{
+	padding-top:70px;
+}
+.kv_toppadder80{
+	padding-top:80px;
+}
+.kv_toppadder90{
+	padding-top:90px;
+}
+.kv_toppadder100{
+	padding-top:100px;
+}
+.kv_bottompadder10{
+	padding-bottom:10px;
+}
+.kv_bottompadder20{
+	padding-bottom:20px;
+}
+.kv_bottompadder30{
+	padding-bottom:30px;
+}
+.kv_bottompadder40{
+	padding-bottom:40px;
+}
+.kv_bottompadder50{
+	padding-bottom:50px;
+}
+.kv_bottompadder60{
+	padding-bottom:60px;
+}
+.kv_bottompadder70{
+	padding-bottom:70px;
+}
+.kv_bottompadder80{
+	padding-bottom:80px;
+}
+.kv_bottompadder90{
+	padding-bottom:90px;
+}
+.kv_bottompadder100{
+	padding-bottom:100px;
+}
+.kv_bottompadder2100{
+	padding-bottom:200px;
+}
+/***********************************************************************************
+ 2.2 - Padder Top - Bottom Css End
+***********************************************************************************/
+/***********************************************************************************
+ 2.3 - Heading Css Start
+***********************************************************************************/
+.kv_heading{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.kv_heading2{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.kv_heading h1{
+	float:left;
+	width:100%;
+	text-transform: capitalize;
+	margin: 0px;
+	margin-bottom: 50px;
+	padding: 0px;
+	color: #000;
+	font-weight: 100;
+	position:relative;
+}
+.kv_heading2 h1{
+	float:left;
+	width:100%;
+	text-transform: capitalize;
+	margin: 0px;
+	margin-bottom: 50px;
+	padding: 0px;
+	color: #000;
+	font-weight: 100;
+	position:relative;
+}
+.kv_heading1{
+	float:left;
+	width:100%;
+	text-transform: capitalize;
+	margin: 0px;
+	margin-bottom: 50px;
+	padding: 0px;
+	color: #fff !important;
+	font-weight: 100;
+	position:relative;
+}
+.kv_heading h1:before{
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 45%;
+    right: 45%;
+    z-index: 0;
+    border-bottom: 4px double #174b87;
+}
+.kv_heading2 h1:before{
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 45%;
+    right: 45%;
+    z-index: 0;
+    border-bottom: 4px double #174b87;
+}
+.kv_heading h1:after{
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    right: 45%;
+    z-index: 0;
+    border-bottom: 4px double #fff;
+}
+.kv_heading2 h1:after{
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    right: 45%;
+    z-index: 0;
+    border-bottom: 4px double #000;
+}
+.kv_heading h1 span{
+	font-size: 34px;
+	font-weight: 400;
+    color: #174b87;
+}
+.kv_heading2 h1 span{
+	font-size: 34px;
+	font-weight: 400;
+    color: #174b87;
+}
+.kv_heading p{
+	display:inline-block;
+	width: 600px;
+	line-height: 23px;
+	color: #aaaaaa;
+}
+.kv_heading2 p{
+	display:inline-block;
+	width: 600px;
+	line-height: 23px;
+	color: #aaaaaa;
+}
+/***********************************************************************************
+ 2.3 - Heading Css End
+***********************************************************************************/
+/***********************************************************************************
+ 2.4 - Button Css Start
+***********************************************************************************/
+.kv_btn {
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+	background-color: #174b87;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0px;
+    padding: 0 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_btn:hover, .kv_btn:focus {
+    background-color: #006f6f;
+	color: #ffffff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+/***********************************************************************************
+ 2.4 - Button Css End
+***********************************************************************************/
+/***********************************************************************************
+ 2 - Typography Css End
+***********************************************************************************/
+/***********************************************************************************
+ 3 - Banner & Menu Css Start
+***********************************************************************************/
+.kv_banner_wrapper{
+    float: left;
+    width: 100%;
+    position: relative;
+    background-image: url(http://placehold.it/1920X1080);
+    background-size: cover;
+    background-position: 100%;
+	z-index:1;
+}
+.kv_header{
+    float: left;
+    width: 100%;
+    background-color: #8a0002;
+    position: fixed;
+    z-index: 2;
+}
+.kv_logo{
+	float:left;
+	width:100%;
+	position:relative;
+    padding-top: 9px;
+	
+}
+.kv_logo span{
+	font-size: 20px;
+	display: block;
+	padding: 8px 0px;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #f1f1f1;
+}
+.kv_logo button{
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    border: 1px solid #8a0002;
+    border-radius: 0px;
+    background-color: #8a0002;
+    color: #fff;
+	display:none;
+}
+.kv_logo button:focus{
+	box-shadow:none;
+	outline:none;
+}
+.kv_main_manu{
+	float:left;
+	width:100%;
+}
+.kv_main_manu ul{
+	float:right;
+	width:auto;
+	margin:0px;
+	padding:0px;
+}
+.kv_main_manu ul li{
+	list-style:none;
+	float:left;
+	width:auto;
+	margin-right:25px;
+}
+.kv_main_manu ul li:last-child{
+	margin-right:0px;
+}
+.kv_main_manu ul li a{
+	float:left;
+	color:#fff;
+	padding:25px 0px;
+	font-weight:600;
+	text-transform:capitalize;
+    font-family: 'Yeseva One', cursive;
+	font-weight:100;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_main_manu ul li a:hover, .kv_main_manu ul li a.active{
+	color:#000;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_banner_text{
+	float:left;
+	width:100%;
+	text-align:center;
+	color:#fff;
+	position:relative;
+    overflow: hidden;
+}
+.kv_banner_text h1{
+	float:left;
+	width:100%;
+	text-transform:uppercase;
+	margin:50px 0px 0px 0px;
+    font-size: 60px;
+}
+.kv_banner_text ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+.kv_banner_text ul li{
+	list-style:none;
+	display:inline-block;
+	margin-right:30px;
+	position:relative;
+    text-transform: uppercase;
+}
+.kv_banner_text ul li:last-child{
+	margin-right:0px;
+}
+.kv_banner_text ul li:after{
+    content: "*";
+    position: absolute;
+    top: 3px;
+    right: -20px;
+}
+.kv_banner_text ul li:last-child:after{
+    display:none;
+}
+.kv_banner_text p{
+	float:left;
+	width:100%;
+	margin:0px;
+    text-transform: capitalize;
+}
+.kv_banner_text img{
+	display:inline-block;
+}
+/* code for animated blinking cursor */
+.kv_bannertext_wrapper{
+	float:left;
+	width:100%;
+	font-family: 'Yeseva One', cursive;
+}
+.kv_bannertext_wrapper span{
+	display:inline-block;
+	text-transform: capitalize;
+	margin: 50px 0px 0px 0px;
+	font-size: 60px;
+}
+.typed-cursor{
+	opacity: 1;
+	font-weight: 100;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	-ms-animation: blink 0.7s infinite;
+	-o-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-ms-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-o-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+/* code for waves on Banner */
+.kv_waves {
+	position: absolute;
+	width: 800px;
+	bottom: -75px;
+	left: 0%;
+	margin-left: -400px;
+}
+.kv_waves2 {
+    position: absolute;
+    width: 100%;
+    top: 315px;
+    right: 0px;
+    margin: 0px auto;
+    left: 0px;
+}
+.kv_waves3 {
+	position: absolute;
+	width: 900px;
+	bottom: 15px;
+	right: -400px;
+}
+.kv_wave {
+	width: 400px;
+	height: 400px;
+	background: rgba(0, 0, 0, 0.03);
+	border: 1px solid rgba(23, 166, 151, 0.5);
+	border-radius: 50%;
+	margin-left: 50%;
+	left: -200px;
+	position: absolute;
+	bottom: -160px;
+	-webkit-transform: scale(0.1, 0.1);
+	-moz-transform: scale(0.1, 0.1);
+	-ms-transform: scale(0.1, 0.1);
+	-o-transform: scale(0.1, 0.1);
+	transform: scale(0.1, 0.1);
+	opacity: 0;
+	-webkit-animation: pulse 3000ms ease-out infinite;
+	-moz-animation: pulse 3000ms ease-out infinite;
+	-ms-animation: pulse 3000ms ease-out infinite;
+	-o-animation: pulse 3000ms ease-out infinite;
+	animation: pulse 3000ms ease-out infinite;
+}
+.kv_wave:nth-of-type(2) {
+	-webkit-animation-delay: 600ms;
+	-moz-animation-delay: 600ms;
+	-ms-animation-delay: 600ms;
+	-o-animation-delay: 600ms;
+	animation-delay: 600ms;
+}
+.kv_wave:nth-of-type(3) {
+	-webkit-animation-delay: 1200ms;
+	-moz-animation-delay: 1200ms;
+	-ms-animation-delay: 1200ms;
+	-o-animation-delay: 1200ms;
+	animation-delay: 1200ms;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    -moz-transform: scale(0.1, 0.1);
+    -ms-transform: scale(0.1, 0.1);
+    -o-transform: scale(0.1, 0.1);
+	transform: scale(0.1, 0.1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+	transform: scale(1.2, 1.2);
+    opacity: 0;
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.1, 0.1);
+    -moz-transform: scale(0.1, 0.1);
+    -ms-transform: scale(0.1, 0.1);
+    -o-transform: scale(0.1, 0.1);
+	transform: scale(0.1, 0.1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+	transform: scale(1.2, 1.2);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes pulse-text {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes pulse-text {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/***********************************************************************************
+ 3 - Banner & Menu Css End
+***********************************************************************************/
+/***********************************************************************************
+ 4 - What We Do Wrapper Css Start
+***********************************************************************************/
+.kv_section{
+	float:left;
+	width:100%;
+}
+.kv_wedo_wrapper{
+	float:left;
+	width:100%;
+	background-color:#000;
+}
+.kv_wedo_section{
+	float:left;
+	width:100%;
+}
+.kv_wedo_box{
+	float:left;
+	width:100%;
+    color: #aaaaaa;
+	position:relative;
+	padding-left:90px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_wedo_box i{
+	position:absolute;
+	left:0px;
+	top:5px;
+    font-size: 30px;
+    background-color: #174b87;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_wedo_box h3{
+	float:left;
+	width:100%;
+	margin:0px;
+    margin-bottom: 15px;
+	text-transform:capitalize;
+    font-weight: 400;
+	color:#fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_wedo_box p{
+	float:left;
+	width:100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_wedo_box a{
+	float:right;
+	text-transform:capitalize;
+	color:#fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_wedo_box:hover p{
+	color:#fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_wedo_box:hover a, .kv_wedo_box:hover h3{
+	color:#174b87;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_wedo_box:hover i{
+	color:#174b87;
+	background-color:#fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+/***********************************************************************************
+ 4 - What We Do Wrapper Css End
+***********************************************************************************/
+/***********************************************************************************
+ 5 - Why We Best Wrapper Css Start
+***********************************************************************************/
+.kv_whywe_wrapper{
+    float: left;
+    width: 100%;
+    position: relative;
+    background-image: url(http://placehold.it/1920X1080);
+    background-size: cover;
+    background-position: 100%;
+	z-index:0;
+}
+.kv_overlay1{
+	position:absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	background: url(/Users/VINCENT/Desktop/portfolio/NCC/2.jpg);
+	background-size: cover;
+	z-index:-1;
+}
+.kv_overlay{ 
+	position:absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	background-color: white;
+	z-index:-1;
+}
+.kv_whewe_section{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.kv_whewe_section p{
+	display:inline-block;
+	width:90%;
+	color:#000;
+}
+/***********************************************************************************
+ 5 - Why We Best Wrapper Css End
+***********************************************************************************/
+/***********************************************************************************
+ 6 - About Wrapper Css Start
+***********************************************************************************/
+.kv_about_wrapper{
+	float:left;
+	width:100%;
+	background-color:#000;
+}
+.kv_about_section{
+	float:left;
+	width:100%;
+}
+.kv_about_video{
+	float:left;
+	width:100%;
+}
+.kv_about_video img{
+	position:absolute;
+    top: -134px;
+    left: 130px;;
+/* 	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; */
+}
+.kv_about_video:hover img{
+/* 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; */
+}
+.kv_about_info{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.kv_about_info p{
+    width: 80%;
+    color: #fff;
+    display: inline-block;
+}
+.kv_about_info .kv_btn{
+    margin-top: 50px;
+}
+/***********************************************************************************
+ 6 - About Wrapper Css End
+***********************************************************************************/
+/***********************************************************************************
+ 7 - Our Process Wrapper Css Start
+***********************************************************************************/
+.kv_ourprocess_wrapper{
+	float:left;
+	width:100%;
+    position: relative;
+    background-image: url(http://placehold.it/1920X1080);
+    background-size: cover;
+    background-position: 100%;
+	z-index:0;
+}
+.kv_ourprocess_section{
+	float:left;
+	width:100%;
+}
+.kv_ourprocess_box{
+	float:left;
+	width:100%;
+	text-align:center;
+	color:#fff;
+}
+.kv_ourprocess_box span{
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_ourprocess_box span i{
+    font-size: 30px;
+}
+.kv_ourprocess_box h3{
+	float:left;
+	width:100%;
+	text-transform:capitalize;
+	margin:0px;
+	margin-bottom:10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_ourprocess_box:hover span{
+	border-color:#174b87;
+	background-color:#174b87;
+	border-radius: 3%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_ourprocess_box:hover h3{
+    color: #174b87;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+/***********************************************************************************
+ 7 - Our Process Wrapper Css End
+***********************************************************************************/
+/***********************************************************************************
+ 8 - Recent Work Wrapper Css Start
+***********************************************************************************/
+.kv_portfolio_wrapper{
+	float:left;
+	width:100%;
+	background-color:#000;
+}
+.kv_portfolio_section{
+	float:left;
+	width:100%;
+}
+.kv_portfolio_item{
+	float:left;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+    margin-bottom: 27px;
+    border: 1px solid #aaaaaa;
+}
+.kv_portfolio_item:after{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	display:none;
+	right:0px;
+	background-color:rgba(0,0,0,0.7);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_portfolio_item:hover:after{
+	display:block;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_portfolio_item img{
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.kv_portfolio_item:hover img{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.3);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.kv_portfolio_box{
+	position:absolute;
+	top:100%;
+	left:0px;
+	right:0px;
+	text-align:center;
+	color:#fff;
+    z-index: 1;
+}
+.kv_portfolio_box h3{
+	float:left;
+	width:100%;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin: 0;
+    font-style: italic;
+}
+.kv_portfolio_box p{
+	float:left;
+	width:100%;
+	padding-top: 20px;
+}
+.kv_portfolio_box ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.kv_portfolio_box ul li{
+	display:inline-block;
+	list-style:none;
+	margin-right:15px;
+}
+.kv_portfolio_box ul li:last-child{
+	margin-right:0px;
+}
+.kv_portfolio_box ul li a{
+	display:block;
+	color:#fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_portfolio_box ul li a:hover{
+	color:#174b87;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_portfolio_item:hover .kv_portfolio_box{
+	top:40%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+	-webkit-transition-delay: 0.3s;
+	-moz-transition-delay: 0.3s;
+	-ms-transition-delay: 0.3s;
+	-o-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+/***********************************************************************************
+ 8 - Recent Work Wrapper Css End
+***********************************************************************************/
+/***********************************************************************************
+ 9 - Our Team Wrapper Css Start
+***********************************************************************************/
+.kv_team_wrapper{
+	float:left;
+	width:100%;
+    position: relative;
+    background-image: url(http://placehold.it/1920X1080);
+    background-size: cover;
+    background-position: 100%;
+	z-index:0;
+}
+.kv_team_section{
+	float:left;
+	width:100%;
+}
+.kv_team_item{
+	float:left;
+	width:100%;
+    margin-bottom: 30px;
+	text-align:center;
+}
+.kv_team_item img{
+	display:inline-block;
+	border-radius:0%;
+	border:4px solid #000;
+	-webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+	position:relative;
+}
+.kv_team_item:hover img{
+	border-radius:100%;
+	-webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+	border:4px solid #174b87;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_team_box{
+	float:left;
+	width:100%;
+	text-align:center;
+	color:#000;
+    z-index: 1;
+	position:relative;
+}
+.kv_team_box:after{
+	content: "";
+    position: absolute;
+    top: -6px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #174b87;
+	opacity:0;
+	visibility:hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_team_item:hover .kv_team_box:after{
+	top:6px;
+	opacity:1;
+	visibility:visible;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_team_box h4{
+	float:left;
+	width:100%;
+	margin:30px 0px 0px 0px;
+	text-transform:capitalize;
+    font-size: 22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_team_item:hover .kv_team_box h4{
+	color:#174b87;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_team_box p{
+	float:left;
+	width:100%;
+    padding: 0px 0px;
+	text-transform:capitalize;
+}
+.kv_team_box ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.kv_team_box ul li{
+	display:inline-block;
+	list-style:none;
+	margin-right:15px;
+}
+.kv_team_box ul li:last-child{
+	margin-right:0px;
+}
+.kv_team_box ul li a{
+	display:block;
+	color:#000;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_team_box ul li a:hover{
+	color:#174b87;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+/***********************************************************************************
+ 9 - Our Team Wrapper Css End
+***********************************************************************************/
+/***********************************************************************************
+ 10 - Pricing Wrapper Css Start
+***********************************************************************************/
+.kv_pricetable_wrapper{
+	float:left;
+	width:100%;
+	background-color:#000;
+}
+.kv_pricetable_section{
+	float:left;
+	width:100%;
+}
+.kv_pricetable_box{
+	float:left;
+	width:100%;
+	text-align:center;
+	color:#fff;
+}
+.kv_pricetable_hreader {
+	float:left;
+	width:100%;
+    padding: 20px 0px 50px 0px;
+    background: #174b87;
+    color: #ffffff;
+    text-transform: capitalize;
+	position:relative;
+    border-bottom: 4px solid transparent;
+}
+.kv_pricetable_hreader h2{
+	float:left;
+	width:100%;
+    padding: 10px 0px;
+	margin:0px;
+}
+.kv_pricetable_hreader p{
+	position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 70%;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    padding: 0px;
+    margin: 0px auto;
+    background-color: #fff;
+    color: #174b87;
+    border-radius: 100%;
+    z-index: 1;
+    font-size: 22px;
+    font-weight: 600;
+}
+.hs_pricetable_fotoor {
+	float:left;
+	width:100%;
+    background-color: #171f24;
+    color: #ffffff;
+    padding: 50px 0px;
+    text-transform: capitalize;
+    position: relative;
+    border-bottom: 4px solid #171f24;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.hs_pricetable_fotoor:before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-style: solid;
+    border-width: 50px 50px 0 0;
+    border-color: #174b87 transparent transparent transparent;
+}
+.hs_pricetable_fotoor:after {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: transparent transparent #171f24 transparent;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.hs_pricetable_fotoor ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	margin-bottom:40px;
+	padding:0px;
+}
+.hs_pricetable_fotoor ul li{
+	float:left;
+	width:100%;
+	list-style:none;
+}
+.hs_pricetable_fotoor ul li h5{
+	float:left;
+	width:100%;
+}
+.kv_pricetable_box:hover .hs_pricetable_fotoor:after, .kv_pricetable_box.active .hs_pricetable_fotoor:after {
+    border-color: transparent transparent #174b87 transparent;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_pricetable_box:hover .hs_pricetable_fotoor, .kv_pricetable_box.active .hs_pricetable_fotoor{
+    border-bottom: 4px solid #174b87;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+/***********************************************************************************
+ 10 - Pricing Wrapper Css End
+***********************************************************************************/
+/***********************************************************************************
+ 11 - Testimonial Wrapper Css Start
+***********************************************************************************/
+.kv_testimonial_wrapper{
+	float:left;
+	width:100%;
+    position: relative;
+    background-image: url(http://placehold.it/1920X1080);
+    background-size: cover;
+    background-position: 100%;
+	z-index:0;
+}
+.kv_testimonial_section{
+	float:left;
+	width:100%;
+}
+.kv_testimonial_section .item{
+	float:left;
+	width:100%;
+	color:#fff;
+	text-align:center;
+}
+.kv_testimonial_info{
+	display:inline-block;
+	width:70%;
+	position:relative;
+	padding-top:80px;
+}
+.kv_testimonial_info:before{
+    content: "\f0e6";
+    position: absolute;
+    font-family: FontAwesome;
+    top: -20px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    font-size: 60px;
+}
+.kv_testimonial_info h4{
+	float:left;
+	width:100%;
+	text-transform:capitalize;
+    font-size: 22px;
+}
+.kv_testimonial_info p{
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+	font-style: italic;
+}
+/***********************************************************************************
+ 11 - Testimonial Wrapper Css End
+***********************************************************************************/
+/***********************************************************************************
+ 12 - Footer Wrapper Css Start
+***********************************************************************************/
+.kv_footer_wrapper{
+	float:left;
+	width:100%;
+	background-color:#000;
+}
+.kv_footer_info{
+	float:left;
+	width:100%;
+	color:#fff;
+}
+.kv_footer_info h4{
+	float:left;
+	width:100%;
+	text-transform:capitalize;
+	color: #174b87;
+    margin: 0px 0px 30px 0px;
+    font-size: 22px;
+}
+.kv_footer_info ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.kv_footer_info ul li{
+	float:left;
+	width:100%;
+	list-style:none;
+	margin-bottom:15px;
+}
+.kv_footer_info ul li a{
+	color: #174b87;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_footer_info ul li a:hover{
+    color: #006f6f;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_footer_info ul li img{
+	float:left;
+	width:auto;
+	margin-right:10px;
+}
+.kv_footer_info ul li p{
+	float:left;
+	width:calc(100% - 35px);
+	margin:0px;
+}
+.kv_contact_form{
+	float:left;
+	width:100%;
+}
+.kv_contact_form input[type="text"], .kv_contact_form textarea{
+	float:left;
+	width:100%;
+	border:1px solid #aaaaaa;
+	border-radius:0px;
+	box-shadow:none;
+	text-shadow:none;
+	padding:0px 10px;
+	margin-bottom:15px;
+    background-color: transparent;
+    color: #fff;
+}
+.kv_contact_form input[type="text"]{
+	height:40px;
+}
+.kv_contact_form textarea{
+	resize:vertical;
+	padding:10px;
+}
+.kv_contact_form input[type="text"]:focus, .kv_contact_form textarea:focus{
+	outline:none;
+	box-shadow:none;
+	border:1px solid #174b87;
+}
+.kv_footer_map{
+	float:left;
+	width:100%;
+}
+.kv_footer_map #map{
+	display: block;
+	width: 100%;
+	height: 400px;
+}
+.kv_copyright_wrapper{
+	float:left;
+	width:100%;
+	background-color:#8a0002;
+	color:#fff;
+	text-align:center;
+}
+.kv_copyright_wrapper p{
+	float:left;
+	width:100%;
+	margin:0px;
+}
+.kv_copyright_wrapper p a{
+	color:#174b87;
+	text-transform:uppercase;
+	font-family: 'Yeseva One', cursive;';
+	font-size: 22px;
+}
+.kv_copyright_wrapper ul{
+	float:left;
+	width:100%;
+	margin:20px 0px 10px 0px;
+	padding:0px;
+}
+.kv_copyright_wrapper ul li{
+	display:inline-block;
+	list-style:none;
+	padding-right:15px;
+}
+.kv_copyright_wrapper ul li:last-child{
+	padding-right:0px;
+}
+.kv_copyright_wrapper ul li a{
+	float:leftl;
+	width:100%;
+	color:#fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.kv_copyright_wrapper ul li a:hover{
+	color:#174b87;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+/***********************************************************************************
+ 12 - Footer Wrapper Css End
+***********************************************************************************/

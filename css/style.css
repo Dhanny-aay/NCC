@@ -736,8 +736,7 @@ input, input:hover, input:focus, textarea, textarea:hover, textarea:focus, selec
 	left:0px;
 	bottom:0px;
 	right:0px;
-	background: url(/Users/VINCENT/Desktop/portfolio/NCC/2.jpg);
-	background-size: cover;
+	background-size: cover !important;
 	z-index:-1;
 }
 .kv_overlay{ 

@@ -19,7 +19,7 @@ const Home = () => {
             <p className=" text-black text-sm font-Inter font-medium">Raising Happy, Prosperous and Godly Families</p>
             <button className=" px-6 py-4 font-Labrada bg-blue-700 text-white text-base">Join Us Today</button>
         </div>
-        <div className=" lg:px-[5%] lg:py-24 p-5 w-full">
+        <div className=" lg:px-[5%] lg:py-24 p-8 w-full">
             <div className=" flex flex-col justify-center items-center text-center text-white space-y-4">
                 <p className=" font-Labrada lg:text-4xl text-3xl font-bold text-[#174b87]">Want<span className=" text-white"> To Worship With Us?</span></p>
                 <p className=" text-center text-[#aaaaaa] font-Inter text-sm font-medium">Join us in-person or online for worship this Sunday. In the presence of God, there is<br></br>fullness of Joy</p>
@@ -54,18 +54,18 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className=" lg:px-[5%] lg:py-24 p-5 w-full bg-white">
+        <div className=" lg:px-[5%] lg:py-24 p-8 w-full bg-white">
             <div className=" flex flex-col justify-center items-center text-white space-y-7">
                 <p className=" font-Labrada text-center md:text-4xl text-3xl font-bold text-[#174b87]">God Gives Us<span className=" text-black"> Power To Believe</span></p>
                 <p className=" text-[#aaaaaa] text-center font-Inter md:text-base text-sm font-medium">"Matthew 28:19-20. Go therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all things that I have commanded you; and lo, I am with you always, even to the end of the age."</p>
                 <p className=" text-[#aaaaaa] text-center font-Inter md:text-base text-sm font-medium">In the Great Commission, our Lord commands us to “make disciples of all nations”. To realistically evangelize the world every believer must be equipped and empowered to win souls and bring them to maturity. In other words, it is the duty of each Christian to duplicate himself/herself in a new convert to Christ. Training and materials are provided for each member to carry out one to one follow-up of new converts who can soon become disciples, able to win others to Christ.</p>
             </div>
         </div>
-        <div className=" lg:px-[5%] lg:py-24 p-5 w-full ">
-            <div className=" flex flex-col justify-center items-center text-white space-y-7">
+        <div className=" lg:px-[5%] lg:py-24 p-8 w-full ">
+            <div className=" wf\ flex flex-col justify-center items-center text-white space-y-7">
                 <p className=" font-Labrada md:text-4xl text-3xl text-center font-bold text-[#174b87]">About<span className=" text-white"> Our Pastor</span></p>
                 <p className=" text-center text-[#aaaaaa] font-Inter md:text-base text-sm font-medium">Li Europan lingues es membres del sam familie. idea pleasure and praising pain was born<br></br> Lor separat existentie es un myth Por scientie, musica, sport etc.</p>
-                <div className=" flex md:flex-row flex-col justify-center items-center space-x-8">   
+                <div className=" w-full flex md:flex-row flex-col justify-center items-center space-x-8">   
                     <img className=" pb-5 md:pb-0" src={ image } alt="" />
                     <span className=' flex flex-col items-center space-y-7'>
                         <p className="text-[#fff] text-center font-Inter md:text-base text-sm font-medium">"Cras egestas consectetur tincidunt. Mauris accumsan euismod<br></br> purus, quisrutrum est mattis id. Duis lorem ante, luctus a<br></br> vehicula ut, laoreet non libero.ivamus pharetra purus sodales<br></br> augue pharetra pulvinar. Donec non vulputateodio. Ut rhoncus<br></br> accumsan convallis. Sed scelesque tincidunt diam sit ametmollis.<br></br> Morbi pharetra tortor id odio scelerisque, et egestas it<br></br> molestie....!! </p>
@@ -80,7 +80,7 @@ const Home = () => {
                 <p className=" text-[#aaaaaa] text-center font-Inter text-base font-medium">Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt .</p>
             </div>
         </div>
-        <div className=" lg:px-[5%] lg:py-24 p-5 w-full ">
+        <div className=" lg:px-[5%] lg:py-24 p-8 w-full ">
             <div className=" flex flex-col justify-center w-full items-center text-white space-y-7">
                 <p className="font-Labrada md:text-4xl text-3xl text-center font-bold text-[#174b87]">Get<span className=" text-white"> in Touch</span></p>
                 <p className=" text-center text-[#aaaaaa] font-Inter text-sm md:text-base font-medium pb-6">Far far away, behind the word mountains, far from the countries Vokalia and<br></br> Consonantia, there live the blind texts. Separated they live.</p>

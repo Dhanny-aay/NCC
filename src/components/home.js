@@ -24,32 +24,32 @@ const Home = () => {
                 <p className=" font-Labrada lg:text-4xl text-3xl font-bold text-[#174b87]">Want<span className=" text-white"> To Worship With Us?</span></p>
                 <p className=" text-center text-[#aaaaaa] font-Inter text-sm font-medium">Join us in-person or online for worship this Sunday. In the presence of God, there is<br></br>fullness of Joy</p>
             </div>
-            <div className=" w-full flex md:justify-between items-center justify-center space-y-8 md:space-y-0 flex-col md:flex-row mt-[64px]">
-                <div className=" flex flex-row items-center space-x-7">
+            <div className=" w-full flex lg:justify-between items-center justify-center space-y-8 md:space-y-0 flex-col lg:flex-row mt-[64px]">
+                <div className=" w-auto flex flex-row items-center space-x-7">
                     <button className=" h-16 w-16 rounded-[50%] bg-[#174b87] flex justify-center items-center hover:bg-white transition-colors">
                         <img src={ link } className="" alt="" />
                     </button>
                     <span className=" flex flex-col space-y-4">
                         <p className=" font-Labrada text-white font-bold lg:text-xl text-base">Join Us Online</p>
-                        <p className=" font-Labrada text-[#aaaaaa] font-bold lg:text-base text-sm">Sed ut perspiciatis unde omnis iste<br></br> natus error sit Neque porro quisquam<br></br> est, qui dolorem ipsum.</p>
+                        <p className="w-[300px] font-Labrada text-[#aaaaaa] font-bold lg:text-base text-sm">Experience Jesus Christ's love and teachings<br></br> worldwide. Join our online community for live streams of services, spiritual resources, and connecting with members at New Covenant Church Nigeria.</p>
                     </span>
                 </div>
-                <div className=" flex flex-row items-center space-x-7">
+                <div className=" w-auto flex flex-row items-center space-x-7">
                     <button className=" h-16 w-16 rounded-[50%] bg-[#174b87] hover:bg-white flex justify-center items-center transition-colors">
                         <img src={ convo } className="" alt="" />
                     </button>
                     <span className=" flex flex-col space-y-4">
                         <p className=" font-Labrada text-white font-bold lg:text-xl text-base">Talk To Someone</p>
-                        <p className=" font-Labrada text-[#aaaaaa] font-bold lg:text-base text-sm">Sed ut perspiciatis unde omnis iste<br></br> natus error sit Neque porro quisquam<br></br> est, qui dolorem ipsum.</p>
+                        <p className="w-[300px] font-Labrada text-[#aaaaaa] font-bold lg:text-base text-sm">Need to Talk? For whatever reason, Reach out to our caring team at New Covenant Church Nigeria for support and encouragement. You're not alone – we're here to help."</p>
                     </span>
                 </div>
-                <div className=" flex flex-row items-center space-x-7">
+                <div className=" w-auto flex flex-row items-center space-x-7">
                     <button className=" h-16 w-16 rounded-[50%] bg-[#174b87] flex justify-center items-center hover:bg-white transition-colors">
                         <img src={ map } className="" alt="" />
                     </button>
                     <span className=" flex flex-col space-y-4">
                         <p className=" font-Labrada text-white font-bold lg:text-xl text-base">Our Address</p>
-                        <p className=" font-Labrada text-[#aaaaaa] font-boldlg:text-base text-sm">Plot 226, 1(R) Cresent, along Sauka &<br></br> Tundun-Wada Road, FHA Lugbe-Abuja</p>
+                        <p className="w-[300px] font-Labrada text-[#aaaaaa] font-bold lg:text-base text-sm">Plot 226, 1(R) Cresent, along Sauka &<br></br> Tundun-Wada Road, FHA Lugbe-Abuja</p>
                     </span>
                 </div>
             </div>
@@ -62,14 +62,13 @@ const Home = () => {
             </div>
         </div>
         <div className=" lg:px-[5%] lg:py-24 p-8 w-full ">
-            <div className=" wf\ flex flex-col justify-center items-center text-white space-y-7">
+            <div className=" w-full flex flex-col justify-center items-center text-white space-y-7">
                 <p className=" font-Labrada md:text-4xl text-3xl text-center font-bold text-[#174b87]">About<span className=" text-white"> Our Pastor</span></p>
-                <p className=" text-center text-[#aaaaaa] font-Inter md:text-base text-sm font-medium">Li Europan lingues es membres del sam familie. idea pleasure and praising pain was born<br></br> Lor separat existentie es un myth Por scientie, musica, sport etc.</p>
+                <p className=" text-center text-[#aaaaaa] font-Inter md:text-base text-sm font-medium">Meet our passionate pastor at New Covenant Church Lugbe. Learn about their vision for our community<br></br> and how their teachings can transform your life.</p>
                 <div className=" w-full flex md:flex-row flex-col justify-center items-center space-x-8">   
                     <img className=" pb-5 md:pb-0" src={ image } alt="" />
                     <span className=' flex flex-col items-center space-y-7'>
-                        <p className="text-[#fff] text-center font-Inter md:text-base text-sm font-medium">"Cras egestas consectetur tincidunt. Mauris accumsan euismod<br></br> purus, quisrutrum est mattis id. Duis lorem ante, luctus a<br></br> vehicula ut, laoreet non libero.ivamus pharetra purus sodales<br></br> augue pharetra pulvinar. Donec non vulputateodio. Ut rhoncus<br></br> accumsan convallis. Sed scelesque tincidunt diam sit ametmollis.<br></br> Morbi pharetra tortor id odio scelerisque, et egestas it<br></br> molestie....!! </p>
-                        <button className=" w-28 h-12 font-Labrada bg-blue-700 text-white text-base">Read More</button>
+                        <p className="text-[#fff] text-center font-Inter md:text-base text-sm font-medium w-[300px]">"Cras egestas consectetur tincidunt. Mauris accumsan euismod purus, quisrutrum est mattis id. Duis lorem ante, luctus a vehicula ut, laoreet non libero.ivamus pharetra purus sodales augue pharetra pulvinar. Donec non vulputateodio. Ut rhoncus accumsan convallis. Sed scelesque tincidunt diam sit ametmollis. Morbi pharetra tortor id odio scelerisque, et egestas it molestie....!! </p>
                     </span>
                 </div>
             </div>
@@ -77,13 +76,13 @@ const Home = () => {
         <div className=" px-[5%] py-24 w-full bg-white">
             <div className=" flex flex-col justify-center items-center text-white space-y-7">
                 <span className=" inline-flex space-x-2 font-Labrada text-4xl font-bold text-[#174b87]"><p>Our</p><p className=" text-black">Vision</p></span>
-                <p className=" text-[#aaaaaa] text-center font-Inter text-base font-medium">Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt .</p>
+                <p className=" text-[#aaaaaa] text-center font-Inter text-base font-medium">The New Covenant Church in Nigeria has a vision of empowering individuals to live victorious and fulfilling lives through the teachings of Jesus Christ. The church aims to accomplish this by promoting faith in God, encouraging spiritual growth, and providing opportunities for education and skill development. Additionally, the church places a strong emphasis on the importance of family values and community service, with the goal of creating a positive impact on society. Overall, the New Covenant Church strives to be a source of hope and inspiration for people in Nigeria and beyond, with a focus on promoting God's love and principles in all aspects of life.</p>
             </div>
         </div>
         <div className=" lg:px-[5%] lg:py-24 p-8 w-full ">
             <div className=" flex flex-col justify-center w-full items-center text-white space-y-7">
                 <p className="font-Labrada md:text-4xl text-3xl text-center font-bold text-[#174b87]">Get<span className=" text-white"> in Touch</span></p>
-                <p className=" text-center text-[#aaaaaa] font-Inter text-sm md:text-base font-medium pb-6">Far far away, behind the word mountains, far from the countries Vokalia and<br></br> Consonantia, there live the blind texts. Separated they live.</p>
+                <p className=" text-center text-[#aaaaaa] font-Inter text-sm md:text-base font-medium pb-6">Connect with us at New Covenant Church Nigeria! Contact us with any questions or prayer requests.<br></br> Our team is here to support and respond promptly.</p>
                 <div className=" flex lg:flex-row flex-col justify-center lg:justify-between items-center w-full space-y-7 lg:space-y-0"> 
                     <div className=" flex md:flex-row flex-col lg:w-[50%] md:w-[80%] w-full space-y-5 md:space-y-0 justify-between">
                         <div className=" flex flex-col space-y-4">
@@ -104,18 +103,18 @@ const Home = () => {
                         <div className=" flex flex-col space-y-4">
                             <p className=" font-Labrada text-[#174b87] lg:text-2xl text-xl font-semibold pb-3">Inquiries</p>
                             <span className=" flex flex-row">
-                                <p className=" font-Labrada text-white font-normal text-base">NDuis enim tellus, mattis feugiat<br></br> malesuada nec....</p>
+                                <p className=" font-Labrada text-white font-normal text-base">Need answers? Contact us<br></br>via email or phone below</p>
                             </span>
                             <span className=" flex flex-row">
-                                <p className=" font-Labrada text-white font-normal text-base">inquiries@artistry.com</p>
+                                <p className=" font-Labrada text-white font-normal text-base">mail@NCC.com</p>
                             </span>
-                            <span className=" flex flex-row items-center">
+                            <span className=" flex flex-row items-center ">
                                 <img src={ phone } alt="" />
                                 <p className=" font-Labrada text-white font-normal text-base">+2348035906717</p>
                             </span>
-                            <span className=" flex flex-row">
+                            <span className=" flex flex-row space-x-2">
                                 <img src={ mail } alt="" />
-                                <p className=" font-Labrada text-white font-normal text-base">info@artistry.com</p>
+                                <p className=" font-Labrada text-white font-normal text-base">mail@ncc.com</p>
                             </span>
                         </div>
                     </div>
